@@ -1,4 +1,4 @@
-###Basic Cascading Style Sheet(CSS)
+### Basic Cascading Style Sheet(CSS)
 ```css
 .bg__image {
   position: absolute;
