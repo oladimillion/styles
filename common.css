@@ -36,8 +36,6 @@ code {
 
 .flex {
   display: flex;
-  flex-wrap: wrap;
-  min-width: 270px;
 }
 
 .flex__column {
@@ -50,6 +48,7 @@ code {
 
 .flex__wrap {
   flex-wrap: wrap;
+  min-width: 270px;
 }
 
 .flex__nowrap {
@@ -62,6 +61,10 @@ code {
 
 .flex__two {
   flex: 2;
+}
+
+.flex__three {
+  flex: 3;
 }
 
 .float__left {
@@ -116,6 +119,19 @@ code {
   height: 100%;
 }
 
+.bg__fade70 {
+  opacity: 0.7;
+}
+
+.inner__container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.mobile__items {
+  display: none;
+}
+
 .overflow__hidden {
   overflow: hidden;
 }
@@ -129,7 +145,8 @@ code {
   bottom: 0;
 }
 
-.object__fit {
+.object__fit,
+.bg__image img {
   object-fit: cover; 
   width: 100%;
   min-height: 100%;
@@ -146,6 +163,10 @@ code {
 
 .position__fixed {
   position: fixed;
+}
+
+.z-index10 {
+  z-index: 10;
 }
 
 .list__style__none {
@@ -172,10 +193,6 @@ h1,h2,h3,h4,h5,h6 {
   text-align: center;
 }
 
-.scroll__hori__overflow {
-  overflow-x: auto;
-}
-
 button.unset__properties {
   border: none;
   background: transparent;
@@ -184,8 +201,8 @@ button.unset__properties {
   color: inherit;
 }
 
-.light_gray__color {
-  color: #ccc;
+.scroll__hori__overflow {
+  overflow-x: auto;
 }
 
 .white__color {
@@ -200,14 +217,6 @@ button.unset__properties {
   color: #777;
 }
 
-.bold {
-  font-weight: 600;
-}
-
-.gray__bg {
-  background: #fafafa;;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -220,6 +229,7 @@ button.unset__properties {
   text-transform: capitalize;
 }
 
+.outline__none i,
 .outline__none {
   outline: none;
 }
@@ -237,4 +247,6 @@ button.unset__properties {
   visibility: hidden;
   opacity: 0;
 }
+
+
 
