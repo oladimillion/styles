@@ -16,16 +16,6 @@ body {
   box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.test {
-  border: 1px solid #000;
-  min-height: 200px;
-}
-
 .hide {
   display: none;
 }
@@ -128,12 +118,20 @@ code {
   max-width: 1200px;
 }
 
-.mobile__items {
+.mobile__content {
   display: none;
 }
 
 .overflow__hidden {
   overflow: hidden;
+}
+
+.overflow__auto {
+  overflow: auto;
+}
+
+.scroll__hori__overflow {
+  overflow-x: auto;
 }
 
 .bg__image {
@@ -145,8 +143,7 @@ code {
   bottom: 0;
 }
 
-.object__fit,
-.bg__image img {
+.object__fit {
   object-fit: cover; 
   width: 100%;
   min-height: 100%;
@@ -201,10 +198,6 @@ button.unset__properties {
   color: inherit;
 }
 
-.scroll__hori__overflow {
-  overflow-x: auto;
-}
-
 .white__color {
   color: #fff;
 }
@@ -212,11 +205,6 @@ button.unset__properties {
 .white__bg {
   background: #fff;
 }
-
-.gray__color {
-  color: #777;
-}
-
 .uppercase {
   text-transform: uppercase;
 }
@@ -229,7 +217,6 @@ button.unset__properties {
   text-transform: capitalize;
 }
 
-.outline__none i,
 .outline__none {
   outline: none;
 }
@@ -248,5 +235,16 @@ button.unset__properties {
   opacity: 0;
 }
 
+.circle {
+  border-radius: 50%;
+}
+
+.text__italic {
+  font-style: italic;
+}
+
+.md__min__width {
+  min-width: 270px;
+}
 
 
